@@ -149,7 +149,7 @@ namespace Exam_preparation
                 //Task 19
                 //Генерируется 8 случайных чисел в интервале (–20, 330). Выводятся эти числа и сообщения: чётное – нечетное.
 
-                int[] array = new int[8];
+                /*int[] array = new int[8];
                 Random rand = new Random();
                 int i;
                 for (i = 0; i < array.Length; i++)
@@ -163,7 +163,80 @@ namespace Exam_preparation
                     {
                         Console.WriteLine($"{array[i]} - нечетное.");
                     }
+                }*/
+
+                //Task 20
+                //Найти максимальное число из двух целых чисел a и b.
+
+                /*while (true)
+                {
+                    Console.Write("Введите число A: ");
+                    double a = Convert.ToDouble(Console.ReadLine());
+                    Console.Write("Введите число B: ");
+                    double b = Convert.ToDouble(Console.ReadLine());
+                    if (a > b)
+                    {
+                        Console.WriteLine("Число A является максимальным числом");
+                    }
+                    if (a < b)
+                    {
+                        Console.WriteLine("Число B является максимальным числом");
+                    }
+                    Console.WriteLine();
+                }*/
+
+                //Task 21
+                //Дано целое число n, указывающее номер дня недели от 1 до 7. По указанному номеру n вывести
+                //название соответствующего дня недели.
+
+                /*while (true)
+                {
+                    Console.Write("Введите число n от 1 до 7: ");
+                    int a = Convert.ToInt32(Console.ReadLine());
+                    switch (a)
+                    {
+                        case 1:
+                            Console.WriteLine("Понедельник");
+                            break;
+                        case 2:
+                            Console.WriteLine("Вторник");
+                            break;
+                        case 3:
+                            Console.WriteLine("Среда");
+                            break;
+                        case 4:
+                            Console.WriteLine("Четверг");
+                            break;
+                        case 5:
+                            Console.WriteLine("Пятница");
+                            break;
+                        case 6:
+                            Console.WriteLine("Суббота");
+                            break;
+                        case 7:
+                            Console.WriteLine("Воскресенье");
+                            break;
+                        default:
+                            Console.WriteLine("Вы ввели неверное число.");
+                            break;
+                    }
+                    Console.WriteLine();
+                }*/
+
+                //Task 22
+                //Написать программный код вывода четных двузначных чисел.
+
+                int[] array = new int[89];
+                Random rand = new Random();
+                int i;
+                Console.WriteLine("Четные двузначные числа: ");
+                for (i = 0; i < array.Length; i++)
+                {
+                    array[i] = rand.Next(10, 99);
+                    if (array[i] % 2 == 0)
+                        Console.Write($"{array[i]}; \t");
                 }
+
 
 
             }
