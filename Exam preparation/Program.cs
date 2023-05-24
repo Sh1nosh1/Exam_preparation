@@ -71,7 +71,7 @@ namespace Exam_preparation
                 //Task 15
                 //Определить, является ли число положительным, отрицательным или нулевым.
 
-                while (true)
+                /*while (true)
                 {
                     Console.Write("Введите число x: ");
                     int x = Convert.ToInt32(Console.ReadLine());
@@ -88,7 +88,83 @@ namespace Exam_preparation
                         Console.WriteLine("Число x является отрицательным");
                     }
                     Console.WriteLine();
+                }*/
+
+                //Task 16
+                //Определить, является ли треугольник со сторонами a, b, c равносторонним.
+
+                /*Console.Write("Введите сторону A треугольника: ");
+                double a = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Введите B сторону треугольника: ");
+                double b = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Введите C сторону треугольника: ");
+                double c = Convert.ToDouble(Console.ReadLine());
+                if (a == b & a == c & b == c)
+                {
+                    Console.WriteLine($"Ваш треугольник равносторонний, т.к. все его стороны равны {a}.");
                 }
+                else
+                {
+                    Console.WriteLine($"Ваш треугольник не равносторонний, т.к. все его стороны не равны.\nA={a}; B={b}; C={c}");
+                }*/
+
+                //Task 17
+                //Составьте программу, определяющую, является ли данное число делителем числа 3.
+
+                /*while (true)
+                {
+                    Console.Write("Введите число x: ");
+                    double x = Convert.ToDouble(Console.ReadLine());
+                    if (3 % x == 0)
+                    {
+                        Console.WriteLine("Число x является делителем числа 3.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Число x не является делителем числа 3.");
+                    }
+                    Console.WriteLine();
+                }*/
+
+                //Task 18
+                //Генерируется 10 случайных чисел в интервале (–30, 30). Выводятся эти числа и сообщения:
+                //отрицательное – положительное.
+
+                /*int[] array = new int[10];
+                Random rand = new Random();
+                int i;
+                for (i = 0; i < array.Length; i++)
+                {
+                    array[i] = rand.Next(-30, 30);
+                    if(array[i] > 0)
+                    {
+                        Console.WriteLine($"{array[i]} - положительное.");
+                    }
+                    else if(array[i] < 0)
+                    {
+                        Console.WriteLine($"{array[i]} - отрицательное.");
+                    }
+                }*/
+
+                //Task 19
+                //Генерируется 8 случайных чисел в интервале (–20, 330). Выводятся эти числа и сообщения: чётное – нечетное.
+
+                int[] array = new int[8];
+                Random rand = new Random();
+                int i;
+                for (i = 0; i < array.Length; i++)
+                {
+                    array[i] = rand.Next(-20, 330);
+                    if (array[i] % 2 == 0)
+                    {
+                        Console.WriteLine($"{array[i]} - четное.");
+                    }
+                    else if (array[i] % 2 != 0)
+                    {
+                        Console.WriteLine($"{array[i]} - нечетное.");
+                    }
+                }
+
 
             }
             catch (Exception ex)
