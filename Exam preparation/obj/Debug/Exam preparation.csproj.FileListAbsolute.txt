@@ -1,0 +1,7 @@
+E:\Овчарук Дарья 115 группа\Подготовка\---------------------\Exam preparation\bin\Debug\Exam preparation.exe.config
+E:\Овчарук Дарья 115 группа\Подготовка\---------------------\Exam preparation\bin\Debug\Exam preparation.exe
+E:\Овчарук Дарья 115 группа\Подготовка\---------------------\Exam preparation\bin\Debug\Exam preparation.pdb
+E:\Овчарук Дарья 115 группа\Подготовка\---------------------\Exam preparation\obj\Debug\Exam preparation.csproj.AssemblyReference.cache
+E:\Овчарук Дарья 115 группа\Подготовка\---------------------\Exam preparation\obj\Debug\Exam preparation.csproj.CoreCompileInputs.cache
+E:\Овчарук Дарья 115 группа\Подготовка\---------------------\Exam preparation\obj\Debug\Exam preparation.exe
+E:\Овчарук Дарья 115 группа\Подготовка\---------------------\Exam preparation\obj\Debug\Exam preparation.pdb

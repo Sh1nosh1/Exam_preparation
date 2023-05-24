@@ -1,7 +1,0 @@
-E:\Овчарук Дарья 115 группа\Подготовка\Tasks\bin\Debug\Tasks.exe.config
-E:\Овчарук Дарья 115 группа\Подготовка\Tasks\bin\Debug\Tasks.exe
-E:\Овчарук Дарья 115 группа\Подготовка\Tasks\bin\Debug\Tasks.pdb
-E:\Овчарук Дарья 115 группа\Подготовка\Tasks\obj\Debug\Tasks.csproj.AssemblyReference.cache
-E:\Овчарук Дарья 115 группа\Подготовка\Tasks\obj\Debug\Tasks.csproj.CoreCompileInputs.cache
-E:\Овчарук Дарья 115 группа\Подготовка\Tasks\obj\Debug\Tasks.exe
-E:\Овчарук Дарья 115 группа\Подготовка\Tasks\obj\Debug\Tasks.pdb

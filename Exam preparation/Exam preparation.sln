@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks", "Tasks.csproj", "{FC2450B3-C02D-46DB-BB84-FBC2982D0998}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam preparation", "Exam preparation.csproj", "{52D08D07-CEFD-4E92-B465-230FE9508917}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FC2450B3-C02D-46DB-BB84-FBC2982D0998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC2450B3-C02D-46DB-BB84-FBC2982D0998}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC2450B3-C02D-46DB-BB84-FBC2982D0998}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC2450B3-C02D-46DB-BB84-FBC2982D0998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D08D07-CEFD-4E92-B465-230FE9508917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D08D07-CEFD-4E92-B465-230FE9508917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D08D07-CEFD-4E92-B465-230FE9508917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D08D07-CEFD-4E92-B465-230FE9508917}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E6A7630C-35A2-41BF-B780-7B1ABDBED29C}
+		SolutionGuid = {B99F8A9E-64F9-4EDF-AAB7-431648860F61}
 	EndGlobalSection
 EndGlobal

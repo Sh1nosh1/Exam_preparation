@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC2450B3-C02D-46DB-BB84-FBC2982D0998}</ProjectGuid>
+    <ProjectGuid>{52D08D07-CEFD-4E92-B465-230FE9508917}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tasks</RootNamespace>
-    <AssemblyName>Tasks</AssemblyName>
+    <RootNamespace>Exam_preparation</RootNamespace>
+    <AssemblyName>Exam preparation</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
